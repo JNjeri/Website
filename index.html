@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jojoyce</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!-- <div class="cont"> -->
+
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contacts">contacts</a></li>
+          <!-- <img src="img/logo22.png" alt="" class="logo22" /> -->
+        </ul>
+      </nav>
+    </div>
+
+    <div class="amjoy"><h1 id="head">Hi! I'm Joyce .</h1></div>
+    <div class="clear"></div>
+
+    <div id="about">
+      <img src="img/kajoy.jpg" alt="Joy" class="myimg" />
+      <div class="mejoy">
+        <p>
+          I'm a UI/UX designer and <br />a front-end developer based in<br />
+          Kenya. Am passionate about <br />
+          travel,collaboration,and learning new<br />
+          things. I like coding my own designs.<br />
+          I implement my designs with HTML,CSS <br />and basic Javascript.
+        </p>
+      </div>
+    </div>
+
+    <div id="projects">
+      <h2>Some Of My Work</h2>
+
+      <div class="portfolioimg">
+        <img src="img/cars (1).png" alt="blood" class="bloodyjoy" />
+        <p>UI/UX BLOOD BANK APP <br /></p>
+      </div>
+
+      <div class="portfolioimg">
+        <img src="img/cooking tuorial.png" alt="blood" class="bloodyjoy" />
+        <p>UI/UX TO-DO APP <br /></p>
+      </div>
+      <div class="portfolioimg">
+        <img src="img/33.PNG" alt="blood" class="bloodyjoy" />
+        <p>UI/UX LANDING PAGE <br /></p>
+      </div>
+      <div class="portfolioimg">
+        <img src="img/44.PNG" alt="blood" class="bloodyjoy" />
+        <p>UI/UX DESKTOP PAGE <br /></p>
+      </div>
+      <div class="portfolioimg">
+        <img src="img/55.PNG" alt="blood" class="bloodyjoy" />
+        <p>UI/UX WEBSITE TEMPLATE</p>
+      </div>
+      <div class="portfolioimg">
+        <img src="img/66.PNG" alt="blood" class="bloodyjoy" />
+        <p>UI/UX BLOOD DELIVERY APP</p>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+    <div id="contacts">
+      <h1 id="yes">Let's connect</h1>
+      <br />
+      <p>
+        I'm interested in chatting about design, feel free to connect <br />with
+        me on any of the social platforms below.
+      </p>
+    </div>
+    <div class="social">
+      <i class="fa fa-facebook-square" style="font-size:24px" id="icon"></i>
+      <i class="fa fa-github" style="font-size:24px" id="icon"></i>
+      <i class="fa fa-instagram" style="font-size:24px" id="icon"></i>
+      <i class="fa fa-twitter" style="font-size:24px" id="icon"></i>
+      <i class="fa fa-skype" style="font-size:24px" id="icon"></i>
+      <i class="fa fa-behance-square" style="font-size:24px" id="icon"></i>
+    </div>
+    <!--
+      ======================================================================================================
+    -->
+    <div class="button">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        Back to top
+      </button>
+    </div>
+    <script>
+      window.onscroll = function() {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 50
+        ) {
+          document.getElementById("myBtn").style.display = "block";
+        } else {
+          document.getElementById("myBtn").style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
